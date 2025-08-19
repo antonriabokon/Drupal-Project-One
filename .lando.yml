@@ -1,0 +1,10 @@
+name: my-first-drupal10-app
+recipe: drupal10
+config:
+  webroot: web
+  php: '8.3'           
+  composer_version: 2
+tooling:
+  drush:
+    service: appserver
+    cmd: "vendor/bin/drush"
