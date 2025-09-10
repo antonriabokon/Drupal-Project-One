@@ -1,0 +1,7 @@
+second_module.page:
+  path: "/second"
+  defaults:
+    _controller: '\Drupal\second_module\Controller\SecondController::second'
+    _title: "Second controller"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  color: #f1f;
+}
+
+p {
+  font-family: sans-serif;
+  color: #f1f;
+}
+
+#header {
+  background: linear-gradient(#91d415, #10e0e0);
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#header ul {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu {
+  padding: 40px;
+  font-family: sans-serif;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#content {
+  padding: 50px;
+  background: linear-gradient(217deg, rgb(255 0 0 / 0.8), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 0.8), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 0.8), transparent 70.71%);
+}
+
+#footer {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  font-size: 30px;
+}

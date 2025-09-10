@@ -1,0 +1,4 @@
+name: First module
+description: My first module
+type: module
+core_version_requirement: ^10 || ^11

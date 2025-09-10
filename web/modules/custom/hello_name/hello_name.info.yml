@@ -1,0 +1,6 @@
+name: Hello Name
+type: module
+description: "Form module with name"
+core_version_requirement: ^10 || ^11
+package: Custom
+version: 0.0.1

@@ -1,0 +1,4 @@
+name: Second module
+description: Second module
+type: module
+core_version_requirement: ^10 || ^11

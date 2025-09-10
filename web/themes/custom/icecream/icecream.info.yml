@@ -1,0 +1,14 @@
+name: Icecream
+type: theme
+description: Just another Drupal theme
+base theme: olivero
+core_version_requirement: ^10
+libraries:
+  - icecream/global
+
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar: sidebar
+  footer: footer
