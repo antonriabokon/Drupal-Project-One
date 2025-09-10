@@ -1,0 +1,5 @@
+services:
+  remove_meta_info_response_header:
+    class: Drupal\remove_meta_info\EventSubscriber\RemoveMetaInfoResponseSubscriber
+    tags:
+      - { name: event_subscriber }

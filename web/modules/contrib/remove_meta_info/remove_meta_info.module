@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Module file for Removing Meta Info.
+ */
+
+/**
+ * Implements hook_page_attachements_alter().
+ * @param array $attachments
+ */
+function remove_meta_info_page_attachments_alter(array &$attachments)
+{
+    foreach ($attachments['#attached']['html_head'] as $key => $attachment) {
+        if ($attachment[1] == 'system_meta_generator') {
+            unset($attachments['#attached']['html_head'][$key]);
+        }
+    }
+}

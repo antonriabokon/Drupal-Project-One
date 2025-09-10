@@ -1,0 +1,9 @@
+name: Remove Meta Info
+description: Custom Module created to manage meta-info from head and headers
+package: 'Contrib'
+type: module
+core_version_requirement: ^8 || ^9 || ^10 || ^11
+# Information added by Drupal.org packaging script on 2024-08-21
+version: '1.0.3'
+project: 'remove_meta_info'
+datestamp: 1724226814
