@@ -1,0 +1,6 @@
+palindrome_checker.link:
+  title: "Palindrome Checker"
+  description: "Check if a word is a palindrome"
+  route_name: palindrome_checker.form
+  parent: system.main
+  weight: 10

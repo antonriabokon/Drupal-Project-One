@@ -25,6 +25,7 @@
         "drupal/gin": "^4.0",
         "drupal/gin_toolbar": "^2.0",
         "drupal/remove_meta_info": "^1.0",
+        "drupal/restui": "^1.22",
         "drupal/stable": "^2.0",
         "drupal/tara": "^10.1",
         "drush/drush": "^13.6"

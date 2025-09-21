@@ -1,0 +1,15 @@
+lite_module:
+  path: 'lite-module/'
+  defaults:
+    _title: 'Lite Module'
+    _controller: '\Drupal\lite_module\Controller\LiteModuleController'
+  requirements:
+    _permission: 'access content'
+
+lite_module.example:
+  path: '/lite-module/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\lite_module\Controller\LiteModuleController'
+  requirements:
+    _permission: 'access content'

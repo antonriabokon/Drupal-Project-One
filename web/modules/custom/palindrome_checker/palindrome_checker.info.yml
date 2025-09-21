@@ -1,0 +1,6 @@
+name: Palindrome Checker
+type: module
+description: Provides a simple page to check if a word is a palindrome.
+core_version_requirement: ^11 || ^10
+package: Custom
+version: 1.x

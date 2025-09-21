@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains code for Palindrome Checker module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_checker_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  if ($route_name == 'help.page.palindrome_checker') {
+    return t('This module provides a simple page to check whether a given word is a palindrome.');
+  }
+}
